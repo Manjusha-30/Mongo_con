@@ -1,0 +1,21 @@
+cd backend
+npm init -y
+npm install express mongoose cors dotenv
+
+
+
+take new terminal
+cd frontend
+
+npm create vite@latest . -- --template react
+
+npm install axios
+
+
+before running backend in backend terminal
+
+mongosh
+
+use NewDatabase
+
+db.Students.insertMany([{ name: "Aarav", age: 21 },{ name: "Riya", age: 22 },{ name: "Karan", age: 20 }])
